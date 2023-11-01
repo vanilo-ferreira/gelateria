@@ -24,7 +24,8 @@
 .secao-cardapio {
   display: flex;
   flex-direction: column;
-  margin: 40px auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .secao-cardapio h2 {
@@ -34,7 +35,7 @@
 
 .box-cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -66,4 +67,18 @@
 .card-sorvete p {
   text-align: center;
   font-size: 16px;
+}
+
+@media (max-width: 436px) {
+  .nossos-sabores-container h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .nossos-sabores-container h1 {
+    font-size: 60px;
+  }
 }
