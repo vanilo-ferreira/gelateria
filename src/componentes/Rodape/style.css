@@ -1,0 +1,37 @@
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 20px;
+  align-items: center;
+}
+
+.rodape-informacoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rodape-texto {
+  margin: 30px;
+  padding: 10px;
+}
+
+.logo-rodape img {
+  width: 150px;
+}
+
+.rodape-texto h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.rodape-texto p {
+  font-size: 16px;
+}
+
+.desenvolvedor {
+  margin: 16px;
+  text-align: center;
+}
