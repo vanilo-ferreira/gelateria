@@ -10,9 +10,9 @@ export default function Topo() {
         <img className="imagem-topo" src="assets/logo.png" alt="Logo da Gelatreia" title="Logo da Gelateria" />
 
         <nav>
-          <Link href="#home" className="link-topo">Home</Link>
-          <Link href="#sabores" className="link-topo">Sabores</Link>
-          <Link href="#sobre" className="link-topo">Sobre</Link>
+          <Link to="/" className="link-topo">Home</Link>
+          <Link to="/sabores" className="link-topo">Sabores</Link>
+          <Link to="/sobre" className="link-topo">Sobre</Link>
         </nav>
       </div>
     </header>
