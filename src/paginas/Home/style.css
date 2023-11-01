@@ -88,3 +88,10 @@ main section {
     flex-direction: column;
   }
 }
+
+@media (max-width: 436px) {
+  .texto-banner {
+    font-size: 60px;
+    text-align: center;
+  }
+}
