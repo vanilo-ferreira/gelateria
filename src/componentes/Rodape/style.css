@@ -23,15 +23,39 @@ footer {
 }
 
 .rodape-texto h3 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
 }
 
 .rodape-texto p {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .desenvolvedor {
-  margin: 16px;
+  margin: 20px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .rodape-informacoes {
+    display: block;
+    text-align: center;
+  }
+
+  .rodape-texto {
+    margin: 10px;
+  }
+
+  .logo-rodape img {
+    width: 100px;
+  }
+
+  .rodape-texto h3 {
+    font-size: 20px;
+  }
+
+  .rodape-texto p,
+  .desenvolvedor {
+    font-size: 18px;
+  }
 }

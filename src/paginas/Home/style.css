@@ -1,5 +1,6 @@
 main section {
   display: flex;
+  width: 100%;
 }
 .secao-banner {
   background-image: url("/public/assets/banner-home.png");
@@ -7,7 +8,7 @@ main section {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  height: 80vh;
+  height: 100vh;
   margin-top: 80px;
 }
 
@@ -26,7 +27,7 @@ main section {
 
 .home-imagens,
 .home-texto {
-  width: 50%;
+  width: 100%;
 }
 
 .home-imagens img {
@@ -59,5 +60,31 @@ main section {
   font-size: 20px;
   margin: 0 auto;
   padding: 0 60px;
-  text-align: justify;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .texto-banner {
+    font-size: 60px;
+  }
+
+  .secao-sabores {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-texto {
+    margin: 100px 0;
+    text-align: center;
+  }
+
+  .secao-eventos {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .secao-sobre {
+    display: flex;
+    flex-direction: column;
+  }
 }
