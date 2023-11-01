@@ -1,0 +1,31 @@
+header {
+  padding: 10px 15px;
+  background-color: #f9db79;
+}
+
+.topo-position {
+  position: fixed;
+  max-height: 80px;
+  top: 0;
+  width: 100%; 
+}
+
+.topo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagem-topo {
+    width: 80px;
+}
+
+.link-topo {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0px 5px;
+    font-weight: bold;
+}
