@@ -10,66 +10,65 @@ export default function Sabores() {
       <Topo />
       <main>
         <section className="secao-banner-sabores">
-          <div>
+          <div className="nossos-sabores-container">
             <h1>NOSSOS SABORES</h1>
           </div>
         </section>
-        <section className="secao-cardapio">
-          <div>
-            <h2>SABORES DE SORVETE</h2>
-            <div className="box-cards">
-              <div className="card-sorvete">
-                <figure>
-                  <img src="assets/sabor-oreo.png" alt="" title="" />
-                  <figcaption>Sorvete de Oreo</figcaption>
-                </figure>
-                <p>Delicioso sorvete sabor Oreo.
-                  Uma explosão de sabor.</p>
-              </div>
-              <div className="card-sorvete">
-                <figure>
-                  <img src="assets/sabor-pistache.png" alt="" title="" />
-                  <figcaption>Sorvete de Pistache</figcaption>
-                </figure>
-                <p>Cremoso sorvete sabor pistache com pedacinhos de semente.</p>
-              </div>
-              <div className="card-sorvete">
-                <figure>
-                  <img src="assets/sabor-cookies-avela.png" alt="" title="" />
-                  <figcaption>Sorvete de Cookies & Avelã</figcaption>
-                </figure>
-                <p>
-                  O nosso melhor sorvete.
-                  Você vai adorrar o sabor
-                </p>
-              </div>
-              <div className="card-sorvete">
-                <figure>
-                  <img src="assets/sabor-kiwi.png" alt="" title="" />
-                  <figcaption>Sorvete de Kiwi</figcaption>
-                </figure>
-                <p>
-                  Delicioso e refrescante sorvete sabor kiwi. Rico em vitamina C.
-                </p>
-              </div>
-              <div className="card-sorvete">
-                <figure>
-                  <img src="assets/sabor-morango.png" alt="" title="" />
-                  <figcaption>Sorvete de Morango</figcaption>
-                </figure>
-                <p>
-                  Sorvete de morango gourmet. Tradicional e saboroso.
-                </p>
-              </div>
-              <div className="card-sorvete">
-                <figure>
-                  <img src="assets/sabor-limao.png" alt="" title="" />
-                  <figcaption>Sorvete de Limão Siciliano</figcaption>
-                </figure>
-                <p>
-                  O incrível sorvete gourmet de limão siciliano vai te encontar.
-                </p>
-              </div>
+        <section className="secao-cardapio limitar-secao">
+          <h2 className="subtitulo-cardapio">SABORES DE SORVETE</h2>
+          <div className="box-cards">
+            <div className="card-sorvete">
+              <figure className="imagem-card">
+                <img src="assets/sabor-oreo.png" alt="" title="" />
+                <figcaption>Sorvete de Oreo</figcaption>
+              </figure>
+              <p>Delicioso sorvete sabor Oreo.
+                Uma explosão de sabor.</p>
+            </div>
+            <div className="card-sorvete">
+              <figure className="imagem-card">
+                <img src="assets/sabor-pistache.png" alt="" title="" />
+                <figcaption>Sorvete de Pistache</figcaption>
+              </figure>
+              <p>Cremoso sorvete sabor pistache com pedacinhos de semente.</p>
+            </div>
+            <div className="card-sorvete">
+              <figure className="imagem-card">
+                <img src="assets/sabor-cookies-avela.png" alt="" title="" />
+                <figcaption>Sorvete de Cookies & Avelã</figcaption>
+              </figure>
+              <p>
+                O nosso melhor sorvete.
+                Você vai adorrar o sabor
+              </p>
+            </div>
+            <div className="card-sorvete">
+              <figure className="imagem-card">
+                <img src="assets/sabor-kiwi.png" alt="" title="" />
+                <figcaption>Sorvete de Kiwi</figcaption>
+              </figure>
+              <p>
+                Delicioso e refrescante sorvete sabor kiwi. Rico em vitamina C.
+              </p>
+            </div>
+            <div className="card-sorvete">
+              <figure className="imagem-card">
+                <img src="assets/sabor-morango.png" alt="" title="" />
+                <figcaption>Sorvete de Morango</figcaption>
+              </figure>
+              <p>
+                Sorvete de morango gourmet. 
+                Tradicional e saboroso.
+              </p>
+            </div>
+            <div className="card-sorvete">
+              <figure className="imagem-card">
+                <img src="assets/sabor-limao.png" alt="" title="" />
+                <figcaption>Sorvete de Limão Siciliano</figcaption>
+              </figure>
+              <p>
+                O incrível sorvete gourmet de limão siciliano vai te encontar.
+              </p>
             </div>
           </div>
         </section>
