@@ -1,0 +1,63 @@
+main section {
+  display: flex;
+}
+.secao-banner {
+  background-image: url("/public/assets/banner-home.png");
+  background-color: #f9db79;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 80vh;
+  margin-top: 80px;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-banner {
+  font-size: 100px;
+  color: white;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.home-imagens,
+.home-texto {
+  width: 50%;
+}
+
+.home-imagens img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.home-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-texto h2 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.home-texto span {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.home-texto p {
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 0 60px;
+  text-align: justify;
+}

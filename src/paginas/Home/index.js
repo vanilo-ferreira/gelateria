@@ -1,4 +1,5 @@
 import React from "react";
+import './style.css';
 
 import Topo from "../../componentes/Topo/";
 import Rodape from "../../componentes/Rodape/";
@@ -12,18 +13,18 @@ export default function Home() {
       <main>
 
         <section className="secao-banner">
-          <div>
-            <h1>SORVETERIA ARTESANAL</h1>
+          <div className="banner">
+            <h1 className="texto-banner">SORVETE ARTESANAL</h1>
           </div>
         </section>
 
         <section className="secao-sabores">
-          <div className="sabores-imagem">
+          <div className="home-imagens">
             <figure>
               <img src="assets/banner-sabores.jpg" alt="Sabores de sorvetes distintos" title="Sorvetes distintos" />
             </figure>
           </div>
-          <div className="sabores-texto">
+          <div className="home-texto">
             <h2>NOSSOS SABORES</h2>
             <span>Novos e deliciosos!</span>
 
@@ -38,7 +39,7 @@ export default function Home() {
         </section>
 
         <section className="secao-eventos">
-          <div className="sabores-texto">
+          <div className="home-texto">
             <h2>NOSSOS EVENTOS</h2>
             <span>Delicias com sorvete!</span>
 
@@ -47,7 +48,7 @@ export default function Home() {
               com os melhores sorvetes da sua vida! Venha nos conhecer e passar um tempo aqui com a gente.
             </p>
           </div>
-          <div className="sabores-imagem">
+          <div className="home-imagens">
             <figure>
               <img src="assets/eventos-image.jpg" alt="Imagem de evento na Gelateria" title="Imagem de evento na Gelateria" />
             </figure>
@@ -55,12 +56,12 @@ export default function Home() {
         </section>
 
         <section className="secao-sobre">
-          <div className="sabores-imagem">
+          <div className="home-imagens">
             <figure>
               <img src="assets/sobre-image.jpg" alt="Sabores de sorvetes distintos" title="Sorvetes distintos" />
             </figure>
           </div>
-          <div className="sabores-texto">
+          <div className="home-texto">
             <h2>SOBRE NÓS</h2>
             <span>Alegria em cada casquinha!</span>
 
