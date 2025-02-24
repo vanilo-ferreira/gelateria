@@ -7,7 +7,7 @@ A proposta desse projeto foi criar um site fictício para uma gelateria utilizan
 ##### Funcionalidades Principais
 
 - Home: Página inicial apresentando a gelateria, seu conceito e um banner chamativo.
-- Sabóres: Página exibindo os sabores disponíveis e suas respectivas descrições.
+- Sabores: Página exibindo os sabores disponíveis e suas respectivas descrições.
 - Sobre: Página com informações sobre a gelateria.
 
 A estrutura foi construída com componentes reutilizáveis, garantindo acessibilidade e performance, seguindo boas práticas de desenvolvimento web.
